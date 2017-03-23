@@ -34,3 +34,18 @@
 - git branch -d && gti branch -D //删除要地分支
 
 > 删除本地分支后要使用 git push wyyd :dev  才能删除远程分支。注意：分支名前面的空格不能省略。
+
+### lesson4 远程拉取文件 pull
+
+- git pull wyyd master //把远程的文件拉取到本地，这会直接覆盖本地文件
+
+- git fetch wyyd master //从远程master分支获取更新
+
+- git diff master wyyd/master //比较本地master和远程master(wyyd/master)有什么不同
+
+- git merge wyyd/master //合并
+
+- 当远程和本地仓库文件有冲突时（也就是远程有的我们没有，我们有的远程没有），使用git checkout --ours README.md,意思是以我们本地的文件为最终版本，然后再进行合并操作，git merge wyyd/master,再进行commit 和push操作
+
+
+
