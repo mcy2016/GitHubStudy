@@ -23,4 +23,14 @@
 > 每次修改完都需要执行 git add readme.md , git commit -m "注释内容"，git push wyyd master。这三步
 > 也可以简化成两步，git commit -a -m "注释内容"， git push wyyd master.这两步
 
+### lesson3 分支
 
+- git branch //列出分支
+
+- gti branch dev //创建分支 
+
+- git checkout dev //切换分支
+
+- git branch -d && gti branch -D //删除要地分支
+
+> 删除本地分支后要使用 git push wyyd :dev  才能删除远程分支。注意：分支名前面的空格不能省略。
