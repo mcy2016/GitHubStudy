@@ -16,7 +16,7 @@
 
 ### lesson2 
 
-- git remote add wyyd https://github.com/mcy2016/githubStudy.git //
+- git remote add wyyd https://github.com/mcy2016/githubStudy.git // 连接到远程仓库
 
 - git push wyyd master //push 到远程仓库
 
