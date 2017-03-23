@@ -53,5 +53,5 @@
 
 - 打开生成的公钥文件里的内容，粘贴进gtihub平台的ssh里。
 
-- 重新生成配置文件，git remote, gti remote rm wyyd, gti remote add wyyd git@github.com:mcy2016/GitHubStudy.git
+- 重新生成配置文件，git remote, git remote rm wyyd, git remote add wyyd git@github.com:mcy2016/GitHubStudy.git
 
