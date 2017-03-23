@@ -47,5 +47,11 @@
 
 - 当远程和本地仓库文件有冲突时（也就是远程有的我们没有，我们有的远程没有），使用git checkout --ours README.md,意思是以我们本地的文件为最终版本，然后再进行合并操作，git merge wyyd/master,再进行commit 和push操作
 
+### lesson5 SSH(Secure shell)
 
+- ssh-keygen -t rsa -C "1991993249@qq.com" 生成公钥并保存
+
+- 打开生成的公钥文件里的内容，粘贴进gtihub平台的ssh里。
+
+- 重新生成配置文件，git remote, gti remote rm wyyd, gti remote add wyyd git@github.com:mcy2016/GitHubStudy.git
 
