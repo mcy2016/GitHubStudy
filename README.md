@@ -56,3 +56,6 @@
 - 重新生成配置文件，git remote, git remote rm wyyd, git remote add wyyd git@github.com:mcy2016/GitHubStudy.git
 
 - git clone -b master https://github.com/mcy2016/GitHubStudy.git
+
+
+1214
